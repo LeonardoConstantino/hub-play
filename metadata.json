@@ -1,0 +1,6 @@
+{
+  "name": "HUB.PLAY - Arcade Games Hub",
+  "description": "Hub de jogos arcade modernos direto no navegador com micro-interações, efeitos dinâmicos e muita diversão.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

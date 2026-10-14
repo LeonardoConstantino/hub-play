@@ -1,0 +1,152 @@
+[
+  {
+    "title": "💣 BomberWeb",
+    "subtitle": "Arena Tática de Sobrevivência & Editor de Arenas",
+    "description": "Uma reimaginação moderna do clássico arcade de explosivos. Sobreviva em arenas táticas contra inimigos espertos, assista replays das suas melhores partidas e compartilhe suas criações com os amigos em um clique.",
+    "link": "https://leonardoconstantino.github.io/bomber-web/",
+    "image": "https://raw.githubusercontent.com/LeonardoConstantino/bomber-web/main/assets/hero.png",
+    "genero": "Ação / Arena",
+    "tags": ["retro", "multiplayer-local", "editor-de-fases", "sobrevivencia"],
+    "destaque": true
+  },
+  {
+    "title": "Synth Online 🎛️⚡",
+    "subtitle": "Sintetizador Virtual & Drum Machine",
+    "description": "Um estúdio musical completo direto no navegador. Crie batidas, melodias e experimente sons eletrizantes com modos para iniciantes e para quem já manja de música. Seus presets ficam salvos automaticamente para você continuar de onde parou.",
+    "link": "https://leonardoconstantino.github.io/synth-online/",
+    "image": "https://raw.githubusercontent.com/LeonardoConstantino/synth-online/main/assets/hero.png",
+    "genero": "Criativo / Música",
+    "tags": ["musica", "criatividade", "sintetizador", "sandbox"],
+    "destaque": true
+  },
+  {
+    "title": "⚡ Ring Sync: Reactor Core",
+    "subtitle": "Precisão & Ritmo Cyberpunk",
+    "description": "Um jogo de reflexos e ritmo em um mundo cyberpunk. Estabilize reatores à beira do colapso travando anéis giratórios no momento exato — antes que a cidade inteira fique no escuro.",
+    "link": "https://leonardoconstantino.github.io/ring-sync-reactor-core/",
+    "image": "https://raw.githubusercontent.com/LeonardoConstantino/ring-sync-reactor-core/main/assets/hero.png",
+    "genero": "Ritmo / Precisão",
+    "tags": ["cyberpunk", "reflexo", "arcade", "single-player"],
+    "destaque": false
+  },
+  {
+    "title": "🚦 Crossroads",
+    "subtitle": "Simulador de Semáforo 2D",
+    "description": "Assuma o controle do trânsito de uma cidade em plena loucura. Motoristas carismáticos, conversas reativas e um caos que só aumenta — quantos acidentes você consegue evitar?",
+    "link": "https://leonardoconstantino.github.io/crossroads-simulador-de-semaforo/",
+    "image": "https://raw.githubusercontent.com/LeonardoConstantino/crossroads-simulador-de-semaforo/main/assets/hero.png",
+    "genero": "Simulação / Puzzle",
+    "tags": ["simulacao", "transito", "gerenciamento", "humor"],
+    "destaque": false
+  },
+  {
+    "title": "🚗 Parking Simulator 2D",
+    "subtitle": "Simulador de Baliza",
+    "description": "Aprenda a estacionar de verdade ou teste suas habilidades ao volante. Carros com direção realista, sistema de CNH, pedestres distraídos, chuva, noite e até um editor para você criar suas próprias fases.",
+    "link": "https://leonardoconstantino.github.io/parking-simulator/",
+    "image": "https://raw.githubusercontent.com/LeonardoConstantino/parking-simulator/main/assets/hero.png",
+    "genero": "Simulação / Habilidade",
+    "tags": ["simulacao", "carros", "desafio", "editor-de-fases"],
+    "destaque": false
+  },
+  {
+    "title": "🕹️ Breakout Infinito",
+    "subtitle": "Arcade Synthwave Sem Fim",
+    "description": "Aquele clássico de quebrar tijolinhos, mas sem fim e com visual neon dos anos 80. Combos, power-ups eletrizantes e ondas que só ficam mais difíceis — até onde você aguenta?",
+    "link": "https://leonardoconstantino.github.io/breakout-infinito/",
+    "image": "https://raw.githubusercontent.com/LeonardoConstantino/breakout-infinito/main/assets/hero.png",
+    "genero": "Arcade / Ação",
+    "tags": ["retro", "synthwave", "infinito", "power-ups"],
+    "destaque": false
+  },
+  {
+    "title": "👾 Void Crawler",
+    "subtitle": "Roguelike Arcade Cyberpunk",
+    "description": "Você é um fragmento de código consciente tentando escapar de um computador corrompido. Explore labirintos que mudam a cada partida, colete fragmentos de integridade e fuja dos fantasmas de memória antes que o sistema colapse em glitches.",
+    "link": "https://leonardoconstantino.github.io/void-crawler/",
+    "image": "https://raw.githubusercontent.com/LeonardoConstantino/void-crawler/main/assets/hero.png",
+    "genero": "Roguelike / Arcade",
+    "tags": ["roguelike", "cyberpunk", "procedural", "labirinto"],
+    "destaque": true
+  },
+  {
+    "title": "🧬 Circuito Vivo",
+    "subtitle": "Puzzle de Velocidade Biopunk",
+    "description": "Uma corrida alucinante pelas veias de um organismo biomecânico. No papel de um impulso elétrico, sincronize todos os nós do mapa e colete filamentos de RNA desviando de células cancerígenas hiperativas.",
+    "link": "https://leonardoconstantino.github.io/circuito-vivo/",
+    "image": "https://raw.githubusercontent.com/LeonardoConstantino/circuito-vivo/main/assets/hero.png",
+    "genero": "Puzzle / Velocidade",
+    "tags": ["biopunk", "puzzle", "velocidade", "retro-inspired"],
+    "destaque": false
+  },
+  {
+    "title": "🪢 Rope Tangle Puzzle",
+    "subtitle": "Quebra-Cabeça de Cordas",
+    "description": "Um passatempo relaxante e tátil: desemaranhe nós de corda com física realista, sobre tabuleiros de madeira artesanal torneada. Perfeito para acalmar a mente.",
+    "link": "https://leonardoconstantino.github.io/rope-tangle-puzzle/",
+    "image": "https://raw.githubusercontent.com/LeonardoConstantino/rope-tangle-puzzle/main/assets/hero.png",
+    "genero": "Puzzle / Relaxante",
+    "tags": ["casual", "relaxante", "fisica", "zen"],
+    "destaque": false
+  },
+  {
+    "title": "📱 Toque de Guerra",
+    "subtitle": "Arena Musical do Recreio (2004)",
+    "description": "Ano 2004. O sinal do recreio toca e o pátio vira arena. Com um celular tijolão e um caderno de códigos, componha os melhores ringtones monofônicos, desafie os rivais e mantenha a bateria viva para se tornar a lenda sonora do colégio!",
+    "link": "https://leonardoconstantino.github.io/toque-de-guerra/",
+    "image": "https://raw.githubusercontent.com/LeonardoConstantino/toque-de-guerra/main/assets/hero.png",
+    "genero": "Musical / Nostalgia",
+    "tags": ["nostalgia", "anos-2000", "musica", "humor"],
+    "destaque": true
+  },
+  {
+    "title": "🕹️ Ragdoll Sandbox",
+    "subtitle": "Laboratório Interativo de Física 2D",
+    "description": "Um playground caótico e viciante onde bonecos de pano reagem a tudo que você faz. Arremesse, empilhe, exploda e invente seus próprios experimentos — pura diversão física na tela.",
+    "link": "https://leonardoconstantino.github.io/ragdoll-sandbox/",
+    "image": "https://raw.githubusercontent.com/LeonardoConstantino/ragdoll-sandbox/main/assets/hero.png",
+    "genero": "Sandbox / Física",
+    "tags": ["sandbox", "fisica", "experimentacao", "caos"],
+    "destaque": false
+  },
+  {
+    "title": "O Que Você Esqueceu",
+    "subtitle": "Ateliê & Arena Roguelite",
+    "description": "Todo desenho é um pacto com o que deixamos para trás. Neste jogo atmosférico, sua pintura vira o mundo que você precisa enfrentar — e as ferramentas de arte que você evita ou usa demais ganham vida como colossos sentientes. Uma batalha pelo próprio significado da criação.",
+    "link": "https://leonardoconstantino.github.io/o-que-voce-esqueceu/",
+    "image": "https://raw.githubusercontent.com/LeonardoConstantino/o-que-voce-esqueceu/main/assets/hero.png",
+    "genero": "Roguelite / Atmosférico",
+    "tags": ["arte", "atmosferico", "narrativo", "boss-rush"],
+    "destaque": true
+  },
+  {
+    "title": "🎣 Jogo de Pesca",
+    "subtitle": "Pescaria & Progressão Incremental",
+    "description": "Pesque, evolua e construa um império aquático. Combine a emoção de fisgar o peixe na hora certa com uma jornada de RPG cheia de biomas para desbloquear, um catálogo enciclopédico de espécies, aquário próprio que gera renda, clima em tempo real e até um lendário peixe dourado. Ideal para jogar devagar, todo dia.",
+    "link": "https://leonardoconstantino.github.io/pescaria-retro-game/",
+    "image": "https://raw.githubusercontent.com/LeonardoConstantino/pescaria-retro-game/main/assets/hero.png",
+    "genero": "RPG / Incremental",
+    "tags": ["idle", "rpg", "progressao", "colecionavel"],
+    "destaque": true
+  },
+  {
+    "title": "⚡ ECO — Audiovisual Memory & Rhythm",
+    "subtitle": "Memória & Ritmo Sensorial",
+    "description": "Uma releitura moderna do clássico jogo de memória e ritmo. Sons gerados ao vivo, visual minimalista e uma experiência tátil que prende. A cada acerto o ritmo acelera — até onde seus reflexos aguentam?",
+    "link": "https://leonardoconstantino.github.io/eco/",
+    "image": "https://raw.githubusercontent.com/LeonardoConstantino/eco/main/assets/hero.png",
+    "genero": "Ritmo / Memória",
+    "tags": ["ritmo", "memoria", "minimalista", "sensorial"],
+    "destaque": false
+  },
+  {
+    "title": "🎱 Sinuca Master Class",
+    "subtitle": "Simulador de Sinuca Solo",
+    "description": "Uma mesa de sinuca premium na palma da mão. Física realista, tacos de madeira nobre, iluminação aconchegante e o prazer de encaçapar a bola certa na hora certa — sem sair de casa.",
+    "link": "https://leonardoconstantino.github.io/jogo-de-sinuca/",
+    "image": "https://raw.githubusercontent.com/LeonardoConstantino/jogo-de-sinuca/main/assets/hero.png",
+    "genero": "Esporte / Simulação",
+    "tags": ["sinuca", "fisica", "premium", "single-player"],
+    "destaque": false
+  }
+]
