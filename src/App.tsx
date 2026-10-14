@@ -24,8 +24,11 @@ export default function App() {
       setLoading(true);
       setError(null);
 
-      // Attempt fetching from runtime web server
-      const response = await fetch('/data/games.json', {
+      // Attempt fetching from runtime web server using dynamic BASE_URL
+      const baseUrl = import.meta.env.BASE_URL.endsWith('/')
+        ? import.meta.env.BASE_URL
+        : `${import.meta.env.BASE_URL}/`;
+      const response = await fetch(`${baseUrl}data/games.json`, {
         headers: {
           'Content-Type': 'application/json',
           Accept: 'application/json',
