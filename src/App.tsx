@@ -24,11 +24,11 @@ export default function App() {
       setLoading(true);
       setError(null);
 
-      // Attempt fetching from runtime web server using dynamic BASE_URL
+      // Attempt fetching from runtime web server using dynamic BASE_URL with cache buster
       const baseUrl = import.meta.env.BASE_URL.endsWith('/')
         ? import.meta.env.BASE_URL
         : `${import.meta.env.BASE_URL}/`;
-      const response = await fetch(`${baseUrl}data/games.json`, {
+      const response = await fetch(`${baseUrl}data/games.json?t=${Date.now()}`, {
         headers: {
           'Content-Type': 'application/json',
           Accept: 'application/json',
@@ -40,20 +40,23 @@ export default function App() {
       }
 
       const data: GameList = await response.json();
-      if (Array.isArray(data) && data.length > 0) {
+      const localList = (fallbackGames || []) as GameList;
+
+      // Always pick the dataset with the most games (or freshest data)
+      if (Array.isArray(data) && data.length >= localList.length) {
         setGames(data);
       } else {
-        setGames(fallbackGames as GameList);
+        setGames(localList);
       }
     } catch (err) {
       console.warn('Carregando catálogo padrão integrado:', err);
       // Graceful fallback to guaranteed local schema
-      setGames(fallbackGames as GameList);
+      setGames((fallbackGames || []) as GameList);
     } finally {
       // Small intentional delay so the arcade UI transitions smoothly
       setTimeout(() => {
         setLoading(false);
-      }, 350);
+      }, 200);
     }
   };
 

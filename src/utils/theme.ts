@@ -15,6 +15,19 @@ export function getGameVisualTheme(game: Game, index: number = 0): GameVisualThe
   const title = (game.title || '').toLowerCase();
   const genero = (game.genero || '').toLowerCase();
 
+  // Aftershot: Minimalist ballistic precision & archery neon
+  if (title.includes('aftershot')) {
+    return {
+      fromColor: '#F43F5E',
+      toColor: '#BFFF04',
+      gradientStyle: 'from-[#F43F5E]/25 via-[#BFFF04]/20 to-[#080B18]',
+      accentColor: '#FB7185',
+      glowShadow: 'rgba(244, 63, 94, 0.4)',
+      badgeBg: 'rgba(244, 63, 94, 0.15)',
+      badgeText: '#FECDD3'
+    };
+  }
+
   // 1. BomberWeb: Fiery explosive arcade
   if (title.includes('bomber')) {
     return {
