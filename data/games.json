@@ -148,5 +148,15 @@
     "genero": "Esporte / Simulação",
     "tags": ["sinuca", "fisica", "premium", "single-player"],
     "destaque": false
-  }
+  },
+  {
+  "title": "🏹 Aftershot",
+  "subtitle": "Arcade Minimalista de Precisão Balística",
+  "description": "Você não joga apenas para acertar o próximo alvo — joga para atravessar tudo o que deixou para trás. Cada flecha que erra fica fincada no cenário e vira obstáculo para os próximos disparos. A cada rodada, o campo se transforma em uma escultura viva das suas decisões, exigindo mira milimétrica para encontrar frestas que nem pareciam existir. Feito para jogar no celular, com o polegar, em qualquer lugar.",
+  "link": "https://leonardoconstantino.github.io/aftershot/",
+  "image": "https://raw.githubusercontent.com/LeonardoConstantino/aftershot/main/assets/hero.png",
+  "genero": "Arcade / Precisão",
+  "tags": ["mobile-first", "precisao", "minimalista", "infinito", "reflexo"],
+  "destaque": false
+}
 ]
