@@ -134,6 +134,7 @@ export default function App() {
       <ModalNovidades
         isOpen={isNovidadesOpen}
         onClose={() => setIsNovidadesOpen(false)}
+        games={games}
       />
       <ModalSobre
         isOpen={isSobreOpen}

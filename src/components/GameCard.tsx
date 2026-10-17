@@ -7,9 +7,10 @@ import { arcadeSound } from '../utils/sound';
 interface GameCardProps {
   game: Game;
   index: number;
+  isLatest?: boolean;
 }
 
-export const GameCard: React.FC<GameCardProps> = ({ game, index }) => {
+export const GameCard: React.FC<GameCardProps> = ({ game, index, isLatest }) => {
   const [imageError, setImageError] = useState(false);
   const theme = getGameVisualTheme(game, index);
   // Alternating playful tilt on hover
@@ -86,20 +87,25 @@ export const GameCard: React.FC<GameCardProps> = ({ game, index }) => {
         {/* Gradient shadow overlay for badge & text legibility */}
         <div className="absolute inset-0 bg-gradient-to-t from-[#0d122b] via-transparent to-black/30 pointer-events-none" />
 
-        {/* Top Badges: Pílula do gênero e selo ★ Destaque */}
+        {/* Top Badges: Pílula do gênero e selo ★ Destaque ou Recente */}
         <div className="absolute top-3 left-3 right-3 flex items-center justify-between gap-2 z-10">
           {/* Pílula do gênero */}
           <span className="px-3 py-1 rounded-full text-[11px] font-semibold tracking-wider uppercase bg-[#080b18]/85 text-slate-200 border border-slate-700/80 backdrop-blur-md">
             {game.genero}
           </span>
 
-          {/* Selo ★ Destaque quando destaque é verdadeiro */}
-          {game.destaque && (
+          {/* Selo ★ Destaque ou Recente */}
+          {game.destaque ? (
             <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[11px] font-bold tracking-wider uppercase bg-gradient-to-r from-[#ff5e5b] to-[#ff8c42] text-white shadow-md shadow-[#ff5e5b]/40">
               <Sparkles className="w-3 h-3 fill-white" />
               ★ Destaque
             </span>
-          )}
+          ) : isLatest ? (
+            <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[11px] font-bold tracking-wider uppercase bg-gradient-to-r from-[#bfff04] to-[#10b981] text-black shadow-md shadow-[#bfff04]/30">
+              <Sparkles className="w-3 h-3 fill-black text-black" />
+              Recente
+            </span>
+          ) : null}
         </div>
       </div>
 

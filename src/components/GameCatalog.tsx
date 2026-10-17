@@ -3,6 +3,7 @@ import { Search, X, Sparkles, Filter, AlertCircle, RefreshCw } from 'lucide-reac
 import { Game } from '../types/game';
 import { GameCard } from './GameCard';
 import { arcadeSound } from '../utils/sound';
+import { organizeGames } from '../utils/gameOrder';
 
 interface GameCatalogProps {
   games: Game[];
@@ -26,11 +27,15 @@ export const GameCatalog: React.FC<GameCatalogProps> = ({ games }) => {
     return ['Todos', ...Array.from(genreSet).sort()];
   }, [games]);
 
+  // Organize catalog: featured first, then 3 newest from the end of the array, then others
+  const { sortedGames, latestGames } = useMemo(() => organizeGames(games), [games]);
+  const latestTitleSet = useMemo(() => new Set(latestGames.map((g) => g.title)), [latestGames]);
+
   // Filter games based on search query (title, subtitle, or tags) and selected genre
   const filteredGames = useMemo(() => {
     const query = searchQuery.trim().toLowerCase();
 
-    return games.filter((game) => {
+    return sortedGames.filter((game) => {
       // Genre filter
       const primaryGenre = game.genero.split('/')[0].trim();
       const matchesGenre = selectedGenre === 'Todos' || primaryGenre === selectedGenre;
@@ -45,7 +50,7 @@ export const GameCatalog: React.FC<GameCatalogProps> = ({ games }) => {
 
       return matchesTitle || matchesSubtitle || matchesTag;
     });
-  }, [games, searchQuery, selectedGenre]);
+  }, [sortedGames, searchQuery, selectedGenre]);
 
   const handleTabClick = (genre: string) => {
     arcadeSound.playSwitch();
@@ -157,7 +162,12 @@ export const GameCatalog: React.FC<GameCatalogProps> = ({ games }) => {
         {filteredGames.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {filteredGames.map((game, index) => (
-              <GameCard key={game.title + index} game={game} index={index} />
+              <GameCard
+                key={game.title + index}
+                game={game}
+                index={index}
+                isLatest={latestTitleSet.has(game.title)}
+              />
             ))}
           </div>
         ) : (

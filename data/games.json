@@ -158,5 +158,15 @@
   "genero": "Arcade / Precisão",
   "tags": ["mobile-first", "precisao", "minimalista", "infinito", "reflexo"],
   "destaque": false
+},
+{
+  "title": "🗡️ Dungeon Crawler RPG — O Abismo Lembra",
+  "subtitle": "Roguelite Dungeon Crawler de Exploração Infinita",
+  "description": "Um abismo infinito que cresce junto com você, lembra de cada vez que você caiu e transforma suas mortes em poder para a próxima descida. Explore masmorras que mudam a cada partida, enfrente goblins, orcs, arqueiros e magos, colecione equipamentos e evolua no Altar da Ascensão usando os vestígios das suas quedas. Cada morte deixa uma marca no mundo — e uma chance de voltar mais forte.",
+  "link": "https://leonardoconstantino.github.io/dungeon-crawler-rpg/",
+  "image": "https://raw.githubusercontent.com/LeonardoConstantino/dungeon-crawler-rpg/main/assets/hero.png",
+  "genero": "Roguelite / Dungeon Crawler",
+  "tags": ["roguelite", "rpg", "dark-fantasy", "procedural", "exploracao", "mobile"],
+  "destaque": false
 }
 ]
