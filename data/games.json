@@ -168,5 +168,15 @@
   "genero": "Roguelite / Dungeon Crawler",
   "tags": ["roguelite", "rpg", "dark-fantasy", "procedural", "exploracao", "mobile"],
   "destaque": false
+},
+{
+  "title": "🎞️ REBOBINAR",
+  "subtitle": "Arcade de Plataforma & Pós-Produção Cinematográfica",
+  "description": "Você não controla apenas um personagem — está operando uma fita de película de 35mm em alta velocidade dentro de uma sala de projeção que insiste em dar errado. Corra contra a tesoura da moviola, rebobine o tempo até 5 segundos para refazer saltos impossíveis e fixe marcadores de tomada para não perder o ritmo. Uma viagem por épocas do cinema — do Mudo ao Noir, dos anos 80 ao Digital — onde cada erro vira uma nova chance na fita.",
+  "link": "https://leonardoconstantino.github.io/REBOBINAR/",
+  "image": "https://raw.githubusercontent.com/LeonardoConstantino/REBOBINAR/main/assets/hero.png",
+  "genero": "Arcade / Plataforma",
+  "tags": ["cinema", "plataforma", "rebobinar", "speedrun", "sobrevivencia", "mobile"],
+  "destaque": false
 }
 ]
